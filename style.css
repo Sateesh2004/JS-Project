@@ -1,0 +1,49 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   flex-direction: column;
+  
+   background-color: crimson;
+   height:100vh;
+}
+h1{
+    text-align: center;
+}
+#maincontainer{
+    text-align: center;
+    background: rgb(17, 233, 233);
+    width:40vw;
+    height:50vh; 
+     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+
+#maincontainer .child input{
+    padding:10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    border:2px solid red; 
+}
+#maincontainer #child1 label{
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+}
+#maincontainer #child2 label{
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+}
+
